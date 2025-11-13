@@ -1,0 +1,49 @@
+{
+  "name": "hydrogen-retail-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Retail Clothing Brand Headless eCommerce - Shopify Hydrogen + Remix",
+  "type": "module",
+  "scripts": {
+    "dev": "shopify hydrogen dev",
+    "build": "shopify hydrogen build",
+    "preview": "shopify hydrogen preview",
+    "typecheck": "tsc --noEmit",
+    "codegen": "graphql-codegen --config codegen.ts",
+    "setup:metafields": "tsx scripts/setupMetafields.ts"
+  },
+  "dependencies": {
+    "@remix-run/react": "^2.12.0",
+    "@remix-run/server-runtime": "^2.12.0",
+    "@shopify/hydrogen": "^2024.10.0",
+    "@shopify/hydrogen-react": "^2024.10.0",
+    "@shopify/remix-oxygen": "^2.0.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "isbot": "^5.1.17",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.12.0",
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/typescript": "^4.0.9",
+    "@graphql-codegen/typescript-operations": "^4.2.3",
+    "@shopify/cli": "^3.66.0",
+    "@shopify/cli-hydrogen": "^8.3.0",
+    "@shopify/oxygen-workers-types": "^4.1.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

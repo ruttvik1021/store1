@@ -1,0 +1,15 @@
+node_modules
+dist
+.env*
+.cache
+.shopify
+.turbo
+build
+.DS_Store
+*.log
+coverage
+.vscode
+.idea
+*.swp
+*.swo
+*~

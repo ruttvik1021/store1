@@ -1,0 +1,30 @@
+import '@shopify/hydrogen/styles.css';
+import './styles/app.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded-lg font-medium transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+}
